@@ -1,0 +1,102 @@
+
+*,
+*::before,
+*::after {
+  box-sizing: content-box;
+  margin: 1rem;
+  padding: 5%;
+}
+h1 {
+  margin: 0 3rem 0 3rem;
+  padding: 1%;
+  text-align: center;
+  color: midnightblue;
+}
+
+.wrapper {
+  gap: 0.5rem;
+  border: 8px solid midnightblue;
+  background: midnightblue;
+  color: #fff;
+}
+.wrapper > div {
+  background: blue;
+  color: #fff;
+  height: 225px;
+}
+.wrapper{border:2px; border-style:groove ridge double; border-radius: 28%; padding: 8px;}
+.text{font-family:fantasy; text-indent: 3%; text-shadow: 1px 2px #fc7272}
+.text1{font-family:fantasy; text-indent: 3%; text-shadow: 1px 2px #fc7272}
+.headliner{background-size:43.7%; margin: 50px -250px 80px 100px ; border:2px; border-style:groove ridge double; border-radius: 25%; padding: 28px;}
+.headliner{text-align:center; font-family:fantasy; text-indent: 3%; text-shadow: 1px 2px #000000; font-size: 1.4rem;}
+.headliner2{background-size: 10%; margin: 50px 100px 80px -180px; border:2px; border-style:groove ridge double; border-radius: 25%; padding: 28px;}
+.headliner2{text-align: center; font-family:fantasy; text-indent: 3%; text-shadow: 1px 2px #000000; font-size: 1.4rem; font-size: 1.34rem; flex-wrap: wrap;}
+.headliner3{background-size:43.7%; margin: 50px -250px 80px 100px ; border:2px; border-style:groove ridge double; border-radius: 25%; padding: 28px;}
+.headliner3{text-align:center; font-family:fantasy; text-indent: 3%; text-shadow: 1px 2px #000000; font-size: 1.4rem;font-size: 1.4rem;}
+.headliner4{background-size: 10%; margin: 50px 100px 80px -180px; border:2px; border-style:groove ridge double; border-radius: 25%; padding: 28px;}
+.headliner4{text-align: center; font-family:fantasy; text-indent: 3%; text-shadow: 1px 2px #000000; font-size: 1.4rem; font-size: 1.34rem; flex-wrap: wrap;}
+.introbio{background-size:43.7%; margin: 100px; border-radius: 8%; padding: 28px;}
+.Hmidbod{font-family:fantasy; color: #f9fffe; text-indent: 3%; text-shadow: 1px 2px #f342e7; font-size:xx-large; margin: auto; }
+.Hmidbod1{font-family:fantasy; color: #f9fffe; text-indent: 3%; text-shadow: 1px 2px #f342e7; font-size:xx-large; margin: auto; }
+.Hmidbod2{font-family:fantasy; color: #f9fffe; text-indent: 3%; text-shadow: 1px 2px #f342e7; font-size:xx-large;  display: inline-block; vertical-align: middle; float:none; }
+.Lbod{font-family:fantasy; font-size:xx-large; color:white}
+.midbod{font-family:fantasy; font-size:x-large; color:pink; margin: auto; width: 88%;}
+.bottomH{font-family:fantasy; font-size:xx-large; margin: auto; width: 66%;}
+.bottomt{font-family:fantasy; font-size:x-large; color:white; margin: auto; width: 93%;}
+
+.grid-container {
+  grid-template-columns: auto auto auto auto;
+  display: grid;
+  min-height: 60vh;
+  grid-auto-flow: column;
+  margin-top: 5rem;
+  gap: 3rem;
+  justify-content: space-evenly;
+}
+
+.grid-item {
+  padding: 9rem;
+  font-size: 2rem;
+  background-color: cornflowerblue;
+}
+
+.buttonstuff {
+  width: 200px;
+  border-radius: 25px;
+  font-family:fantasy;
+  font-size: 1.2rem;
+  font-weight: 400;
+  border: 2px solid white;
+  background: transparent;
+  color:#6eff9a;
+  padding: 0.75rem;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+
+.buttonstuff:hover {
+  border-color: rgb(70, 130, 180);
+  background: white;
+  color: rgb(11, 32, 32);
+  font-weight: 600;
+  transition: all 1s ease-out;
+}
+
+
+.triangle,.selfpic,.bottomH,.Hmidbod,.name1{font-size: 50px;color: #fff;text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
+animation: glow-fade-animation 8.8s ease-in-out;}
+@keyframes glow-fade-animation {from {opacity: .01;}to {opacity: 1;}}
+.name{text-align: center; font-family:fantasy; font-size:333%;}
+.name1{text-align: center; font-family:fantasy; font-size:333%;}
+.o0o{text-align: center; font-family:fantasy; font-size:333%;}
+.triangle{text-align: center; font-family:fantasy; font-size:888%; color:#6eff9a;}
+.header1{font-family: fantasy; color: whitesmoke; font-size:150%; padding:3%; border-style: inset; border-color: rgb(198, 21, 198); border-width: 4px; border-radius: 48%}
+.middle{padding:5%; border-style: inset; border-color: rgb(198, 21, 198); border-width: 9px; border-radius: 48%}
+.middle1{padding:3%; border-style: inset; border-color: rgb(75, 9, 189); border-width: 9px; border-radius: 54%}
+.header1,.o0o,.name,.wrapper{display: flex; align-items: center; justify-content: space-evenly; margin-inline: auto; padding: 2rem; animation: fade-in-right 9999ms forwards;}
+@keyframes fade-in-right {0% {transform: translateX(-10%);opacity: 0;} 100% {transform: translateX(0);opacity: 1}}
+@media (prefers-reduced-motion)
+{.header1,.o0o,.name,.wrapper{animation:none;}
+@media (max-width: 770px) {
+.header1,.o0o,.name,.wrapper {flex-direction: column-reverse; align-items: center;gap: 1.5rem;}
+
