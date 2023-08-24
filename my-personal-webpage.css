@@ -84,7 +84,7 @@ h1 {
 
 
 .triangle,.selfpic,.bottomH,.Hmidbod,.name1{font-size: 50px;color: #fff;text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de;
-animation: glow-fade-animation 8.8s ease-in-out;}
+animation: glow-fade-animation 16s ease-in-out;}
 @keyframes glow-fade-animation {from {opacity: .01;}to {opacity: 1;}}
 .name{text-align: center; font-family:fantasy; font-size:333%;}
 .name1{text-align: center; font-family:fantasy; font-size:333%;}
